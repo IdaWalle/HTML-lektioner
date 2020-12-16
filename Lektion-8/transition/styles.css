@@ -1,0 +1,41 @@
+.box {
+background-color: firebrick;
+width: 200px;
+height: 100px;
+margin-top: 4rem;
+
+/*transition: width 1.5s, height 1s, transform 0.5s; */
+transition-property: width;
+transition-duration: 0.5s;
+transition-timing-function: ease-in-out;
+transition-delay: 1s;
+}
+
+
+/* .box:hover{
+    width: 400px;
+    height: 300px;
+
+    transform: translateX(100px);
+} */
+
+.btn {
+    padding: 1.2rem 3rem;
+    background-color: transparent;
+    border: 1px solid transparent;
+    outline: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+    transition: all 0.10s ease-in-out;
+}
+
+.btn-primary {
+    background-color: navy;
+    color: #ffffff;
+    box-shadow: 2px 2px 7px 1px #333333;
+}
+.btn-primary:hover {
+    background-color: rgb(26, 26, 155);
+    box-shadow: 3px 7px 10px 5px #333;
+
+}

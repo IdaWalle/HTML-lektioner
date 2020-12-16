@@ -1,0 +1,8 @@
+.navbar {
+    background-color: peachpuff;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+
+    position: static;
+}
